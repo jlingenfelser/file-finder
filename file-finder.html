@@ -1,0 +1,53 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+
+    <title>File Finder</title>
+    <meta name="description" content="File Finder">
+    <meta name="author" content="John Lingenfelser">
+
+    <link rel="stylesheet" href="theme-1.css">
+
+</head>
+
+<body>
+    <script src="filefinder.js"></script>
+    <div class="main-wrapper">
+
+        <div id="main" class="cta-section theme-bg-light py-5">
+            <div class="container text-center single-col-max-width">
+                <h1 class="heading">File Finder</h1>
+                <p>Tool for finding files in open directories</p>
+            </div>
+
+            <div class="container text-center single-col-max-width">
+                </br></br>
+                <div class="container text-center single-col-max-width" id="main">
+                    <select id="file-type" style="color: #4f4f4f; font-family:-apple-system,BlinkMacSystemFont;">
+                        <option value="music">Music</option>
+                        <option value="eBook" selected="">E-Book</option>
+                        <option value="tvMovie">T.V / Movie</option>
+                    </select>
+                    <input id="search-string" type="text"
+                        style="color: #4f4f4f; font-family:-apple-system,BlinkMacSystemFont;">
+                        <a class="btn btn-primary" id="submit-string">Submit</a>
+
+                    <input type="checkbox" id="hard-or-not"> Hard Search?
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+    <footer class="footer text-center py-4">
+        <small class="copyright"> &copy; 2014 - 2020 DC | John Lingenfelser - Software Developer. All code MIT license.
+            All rights reserved.</small>
+    </footer>
+    </div>
+    <!--//main-wrapper-->
+</body>
+
+</html>
